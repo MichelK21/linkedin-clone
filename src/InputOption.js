@@ -3,7 +3,7 @@ import "./InputOption.css";
 
 function InputOption({ Icon, title, color }) {
   return (
-    <div className="InputOption">
+    <div className="inputOption">
       <Icon style={{ color : color }} />
       <h4>{title}</h4>
     </div>
@@ -11,4 +11,3 @@ function InputOption({ Icon, title, color }) {
 }
 
 export default InputOption;
- 
