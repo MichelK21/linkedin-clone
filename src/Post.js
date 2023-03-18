@@ -2,10 +2,10 @@ import { Avatar } from "@material-ui/core";
 import React from "react";
 import InputOption from "./InputOption";
 import "./Post.css";
-import ThumbUpOffAltIcon from '@mui/icons-material/ThumbUpOffAlt';
-import ChatIcon from '@mui/icons-material/Chat';
-import ShareIcon from '@mui/icons-material/Share';
-import SendIcon from '@mui/icons-material/Send';
+import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
+import ChatIcon from "@mui/icons-material/Chat";
+import ShareIcon from "@mui/icons-material/Share";
+import SendIcon from "@mui/icons-material/Send";
 
 function Post({ name, description, message, photoUrl }) {
   return (
@@ -21,12 +21,10 @@ function Post({ name, description, message, photoUrl }) {
         <p>{message}</p>
       </div>
       <div className="post__buttons">
-        <InputOption Icon={ThumbUpOffAltIcon} title="like" color="gray"/>
-        <InputOption Icon={ChatIcon} title="Comment" color="gray"/>
-        <InputOption Icon={ShareIcon} title="Share" color="gray"/>
-        <InputOption Icon={SendIcon} title="Send" color="gray"/>
-
-
+        <InputOption Icon={ThumbUpOffAltIcon} title="like" color="gray" />
+        <InputOption Icon={ChatIcon} title="Comment" color="gray" />
+        <InputOption Icon={ShareIcon} title="Share" color="gray" />
+        <InputOption Icon={SendIcon} title="Send" color="gray" />
       </div>
     </div>
   );
